@@ -39,7 +39,7 @@ Ensure you have the following dependencies installed:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/style-transfer.git](https://github.com/nihalk17/Dashtoon_GenAI.git
+git clone https://github.com/nihalk17/Dashtoon_GenAI.git
 cd Dashtoon_GenAI
 ```
 
@@ -48,6 +48,7 @@ Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
+Download the VGG-19 model used from this link: https://drive.google.com/file/d/1VffscHZJ3j3BVjoiTUEuDfJZSU64LQVZ/view?usp=sharing
 
 ## Usage
 Replace the base_image_path and style_image_path variables in the script with the paths to your desired base and style images.
