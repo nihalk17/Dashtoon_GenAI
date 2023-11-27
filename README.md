@@ -1,7 +1,6 @@
 # Dashtoon_GenAI
 # Artistic Style Transfer using Deep Learning
 
-Final image
 <p align="center">
   <img src="examples/final_image.png" alt="Final Image" width="500"/>
 </p>
@@ -64,7 +63,11 @@ The final stylized image will be saved in the project directory. Visualize the b
 
 <p align="center">
   <img src="examples/base_image.jpeg" alt="Base Image" width="200"/>
+</p>
+<p align="center">
   <img src="examples/style_image.png" alt="Style Image" width="200"/>
+</p>
+<p align="center">
   <img src="examples/final_image.png" alt="Final Image" width="200"/>
 </p>
 
