@@ -61,8 +61,8 @@ Experiment with the number of iterations during the L-BFGS optimization for fine
 The final stylized image will be saved in the project directory. Visualize the base image, style image, and the generated image in the provided Matplotlib plots.
 
 <p align="center">
-  <img src="examples/base_image.jpg" alt="Base Image" width="200"/>
-  <img src="examples/style_image.jpg" alt="Style Image" width="200"/>
+  <img src="examples/base_image.jpeg" alt="Base Image" width="200"/>
+  <img src="examples/style_image.png" alt="Style Image" width="200"/>
   <img src="examples/final_image.png" alt="Final Image" width="200"/>
 </p>
 
