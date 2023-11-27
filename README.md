@@ -39,8 +39,8 @@ Ensure you have the following dependencies installed:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/style-transfer.git
-cd style-transfer
+git clone https://github.com/your-username/style-transfer.git](https://github.com/nihalk17/Dashtoon_GenAI.git
+cd Dashtoon_GenAI
 ```
 
 Install the required packages:
