@@ -41,25 +41,23 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/your-username/style-transfer.git
 cd style-transfer
+```
 
 Install the required packages:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+## Usage
 Replace the base_image_path and style_image_path variables in the script with the paths to your desired base and style images.
-
-Run the script:
-
-bash
-Copy code
-python style_transfer.py
 The script will generate and save the final stylized image.
-Customization
+
+## Customization
 Tailor the appearance of the output image by adjusting parameters such as img_nrows and img_ncols in the script.
 Experiment with the number of iterations during the L-BFGS optimization for fine-tuning.
-Results
+
+## Results
 The final stylized image will be saved in the project directory. Visualize the base image, style image, and the generated image in the provided Matplotlib plots.
 
 <p align="center">
@@ -67,11 +65,13 @@ The final stylized image will be saved in the project directory. Visualize the b
   <img src="examples/style_image.jpg" alt="Style Image" width="200"/>
   <img src="examples/final_image.png" alt="Final Image" width="200"/>
 </p>
-Conclusion
+
+## Conclusion
 While the current implementation produces visually appealing results, there is always room for improvement. Experiment with different style images, tweak parameters, and explore alternative style transfer algorithms to achieve even more stunning visual blends.
 
-Acknowledgments
+## Acknowledgments
 The code is based on the style transfer deep learning algorithm and utilizes the VGG19 model.
-Original implementation: Link to Colab Notebook
-License
+Original implementation: https://colab.research.google.com/drive/1EwixGVfO2s7vAqNkYB_ip9DoJt1ft9m3?usp=sharing
+
+## License
 This project is licensed under the MIT License.
