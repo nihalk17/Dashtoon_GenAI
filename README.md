@@ -1,1 +1,77 @@
 # Dashtoon_GenAI
+# Artistic Style Transfer using Deep Learning
+
+<p align="center">
+  <img src="examples/final_image.png" alt="Final Image" width="500"/>
+</p>
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
+
+## Introduction
+
+This project implements a sophisticated deep learning model for artistic style transfer. The algorithm combines the content of a base image with the style of a reference image, resulting in visually stunning and unique compositions. The core implementation is based on the neural style transfer algorithm using the powerful VGG19 model and L-BFGS optimization.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following dependencies installed:
+
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- SciPy
+
+### Installation
+
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/your-username/style-transfer.git
+cd style-transfer
+
+Install the required packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Replace the base_image_path and style_image_path variables in the script with the paths to your desired base and style images.
+
+Run the script:
+
+bash
+Copy code
+python style_transfer.py
+The script will generate and save the final stylized image.
+Customization
+Tailor the appearance of the output image by adjusting parameters such as img_nrows and img_ncols in the script.
+Experiment with the number of iterations during the L-BFGS optimization for fine-tuning.
+Results
+The final stylized image will be saved in the project directory. Visualize the base image, style image, and the generated image in the provided Matplotlib plots.
+
+<p align="center">
+  <img src="examples/base_image.jpg" alt="Base Image" width="200"/>
+  <img src="examples/style_image.jpg" alt="Style Image" width="200"/>
+  <img src="examples/final_image.png" alt="Final Image" width="200"/>
+</p>
+Conclusion
+While the current implementation produces visually appealing results, there is always room for improvement. Experiment with different style images, tweak parameters, and explore alternative style transfer algorithms to achieve even more stunning visual blends.
+
+Acknowledgments
+The code is based on the style transfer deep learning algorithm and utilizes the VGG19 model.
+Original implementation: Link to Colab Notebook
+License
+This project is licensed under the MIT License.
