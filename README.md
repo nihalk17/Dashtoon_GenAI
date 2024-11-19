@@ -1,4 +1,3 @@
-# Dashtoon_GenAI
 # Artistic Style Transfer using Deep Learning
 
 <p align="center">
